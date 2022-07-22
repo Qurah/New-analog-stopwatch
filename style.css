@@ -18,7 +18,7 @@ align-items: center;
     justify-content: center;
     overflow: hidden;
 }
-button {
+/* button { 
     width: 100px;
     height: 50px;
     border: 3px solid #aaaaeb;
@@ -28,9 +28,9 @@ button {
     cursor: pointer;
     font-size: 20px;
     font-weight: 500;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
     
-}
+/* } */
 #buttons {
     position: absolute;
     top: 90%;
@@ -42,12 +42,9 @@ button {
     padding-left: 10px;
     
 }
-button:hover{
-   background-color: purple;
-}
-button {
-    box-shadow: 0 8px 16px 0 rgba(128, 124, 124, 0.2), 0 6px 20px 0 rgba(126, 124, 124, 0.19);
-  }
+
+
+
 
 .clock{
     border-radius: 50%;
@@ -68,7 +65,7 @@ button {
     position: absolute;
     width: 100%;
     height: 100%;
-    color: salmon;
+    color: rgb(250, 207, 114);
     text-align: center;
     transform: rotate(var(--rotation));
     font-size: 1.5rem;
@@ -131,7 +128,7 @@ button {
 }
 
  .hand.hour{
-    background-color: rgb(187, 14, 14);
+    background-color: rgb(119, 93, 7);
     width: 1.8%;
     height: 25%;
     top: 25%;
