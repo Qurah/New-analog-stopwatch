@@ -61,5 +61,4 @@ function reset() {
 }
 
 function setRotation(element, rotationRatio) {
-    element.style.setProperty('--rotation', rotationRatio * 360)
-}
+    element.style.setProperty('--rotation', rotationRatio * 360)}
